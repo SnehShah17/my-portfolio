@@ -1,0 +1,111 @@
+.skills {
+    padding: 80px 0;
+    position: relative;
+    background-color: #000;
+  }
+  
+  .skills h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .skills h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #4a2fbd;
+    margin: 15px auto 0;
+  }
+  
+  .skill-description {
+    color: #b8b8b8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 0 auto 50px;
+    text-align: center;
+    max-width: 800px;
+  }
+  
+  .skill-cards {
+    margin-top: 30px;
+  }
+  
+  .skill-card {
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border-color: rgba(74, 47, 189, 0.5);
+  }
+  
+  .skill-icon {
+    margin-bottom: 15px;
+  }
+  
+  .icon-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(74, 47, 189, 0.2);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skill-content h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .skill-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .skill-content ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    color: #b8b8b8;
+  }
+  
+  .skill-content ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4a2fbd;
+  }
+  
+  @media (max-width: 768px) {
+    .skills {
+      padding: 50px 0;
+    }
+  
+    .skills h2 {
+      font-size: 35px;
+    }
+  
+    .skill-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  
